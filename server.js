@@ -90,19 +90,21 @@ app.use((err, req, res, next) => {
   }
 });
 
-// Start Server
-app.listen(PORT, () => {
-  console.log(`===================================================`);
-  console.log(`🚀 RahulTube Modular Backend Engine RUNNING on port ${PORT}`);
-  console.log(`📡 Health Check: http://localhost:${PORT}/api/health`);
-  console.log(`🔍 Search API:   http://localhost:${PORT}/api/search?q=trending`);
-  console.log(`🎬 Video API:    http://localhost:${PORT}/api/video/:id`);
-  console.log(`💬 Comments API: http://localhost:${PORT}/api/comments/:id`);
-  console.log(`⚡ Shorts API:   http://localhost:${PORT}/api/shorts`);
-  console.log(`📺 Channel API:  http://localhost:${PORT}/api/channel/:id`);
-  console.log(`🔥 Trending API: http://localhost:${PORT}/api/trending`);
-  console.log(`🎧 Audio Stream: http://localhost:${PORT}/api/stream/audio/:id`);
-  console.log(`===================================================`);
-});
+// Start Server (if not running in Vercel Serverless environment)
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`===================================================`);
+    console.log(`🚀 RahulTube Modular Backend Engine RUNNING on port ${PORT}`);
+    console.log(`📡 Health Check: http://localhost:${PORT}/api/health`);
+    console.log(`🔍 Search API:   http://localhost:${PORT}/api/search?q=trending`);
+    console.log(`🎬 Video API:    http://localhost:${PORT}/api/video/:id`);
+    console.log(`💬 Comments API: http://localhost:${PORT}/api/comments/:id`);
+    console.log(`⚡ Shorts API:   http://localhost:${PORT}/api/shorts`);
+    console.log(`📺 Channel API:  http://localhost:${PORT}/api/channel/:id`);
+    console.log(`🔥 Trending API: http://localhost:${PORT}/api/trending`);
+    console.log(`🎧 Audio Stream: http://localhost:${PORT}/api/stream/audio/:id`);
+    console.log(`===================================================`);
+  });
+}
 
 export default app;
