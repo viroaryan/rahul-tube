@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { Sparkles } from 'lucide-react';
 import VideoCard from '../common/VideoCard.jsx';
 

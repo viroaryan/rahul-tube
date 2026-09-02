@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { Home, Film, Radio, History } from 'lucide-react';
 import { useNavigate, useLocation } from 'react-router-dom';
 

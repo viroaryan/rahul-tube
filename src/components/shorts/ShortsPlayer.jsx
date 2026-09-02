@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ChevronUp, ChevronDown, Sparkles, Loader2 } from 'lucide-react';
 import ShortsActionOverlay from './ShortsActionOverlay.jsx';

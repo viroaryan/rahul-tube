@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { CheckCircle2, Film, Video, ListMusic, Bell, Share2 } from 'lucide-react';
 import VideoCard from '../components/common/VideoCard.jsx';

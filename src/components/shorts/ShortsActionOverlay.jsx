@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { ThumbsUp, ThumbsDown, MessageSquare, Share2, Copy, Check, Music, CheckCircle2, Volume2, VolumeX } from 'lucide-react';
 import { useUser } from '../../context/UserContext.jsx';
 

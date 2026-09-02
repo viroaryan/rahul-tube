@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Formatting and URL parsing utilities.
  */
 

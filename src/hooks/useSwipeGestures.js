@@ -1,4 +1,4 @@
-﻿import { useRef, useCallback } from 'react';
+import { useRef, useCallback } from 'react';
 
 /**
  * Touch swipe and mouse wheel gesture listener for vertical Shorts transitions.

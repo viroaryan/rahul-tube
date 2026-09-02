@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ThumbsUp, Trash2, Play } from 'lucide-react';
 import { useUser } from '../context/UserContext.jsx';

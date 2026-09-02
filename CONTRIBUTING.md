@@ -1,4 +1,4 @@
-﻿# Contributing to RahulTube 🚀
+# Contributing to RahulTube 🚀
 
 First off, thank you for considering contributing to **RahulTube**! It is people like you that make open-source an awesome community to build in.
 

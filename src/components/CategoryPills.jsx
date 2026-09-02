@@ -1,1 +1,1 @@
-﻿export { default, CATEGORIES } from './common/CategoryPills.jsx';
+export { default, CATEGORIES } from './common/CategoryPills.jsx';

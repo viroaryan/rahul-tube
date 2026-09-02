@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useLocation } from 'react-router-dom';
 import VideoGrid from '../components/common/VideoGrid.jsx';
 import SkeletonLoader from '../components/common/SkeletonLoader.jsx';

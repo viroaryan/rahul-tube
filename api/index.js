@@ -1,4 +1,4 @@
-﻿/**
+/**
  * api/index.js - Vercel Serverless Function Handler
  * Mounts all RahulTube modular API routes for serverless execution on Vercel.
  */

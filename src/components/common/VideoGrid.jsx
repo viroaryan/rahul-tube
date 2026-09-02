@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import VideoCard from './VideoCard.jsx';
 import SkeletonLoader from './SkeletonLoader.jsx';
 import { Loader2 } from 'lucide-react';

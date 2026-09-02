@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Play, Pause, X, Maximize2, Headphones, CheckCircle2 } from 'lucide-react';
 import { usePlayer } from '../../context/PlayerContext.jsx';

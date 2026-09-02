@@ -1,1 +1,1 @@
-﻿export { default } from './shorts/ShortsPlayer.jsx';
+export { default } from './shorts/ShortsPlayer.jsx';

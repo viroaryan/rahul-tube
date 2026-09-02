@@ -1,1 +1,1 @@
-﻿export { default } from '../pages/LikedPage.jsx';
+export { default } from '../pages/LikedPage.jsx';

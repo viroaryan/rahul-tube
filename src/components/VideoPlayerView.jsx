@@ -1,1 +1,1 @@
-﻿export { default } from '../pages/WatchPage.jsx';
+export { default } from '../pages/WatchPage.jsx';

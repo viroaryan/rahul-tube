@@ -1,1 +1,1 @@
-﻿export { default } from './common/VideoCard.jsx';
+export { default } from './common/VideoCard.jsx';

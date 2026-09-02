@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Safe localStorage CRUD helper with JSON validation, error recovery and LRU capping.
  */
 

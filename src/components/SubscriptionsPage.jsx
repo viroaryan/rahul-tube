@@ -1,1 +1,1 @@
-﻿export { default } from '../pages/SubscriptionsPage.jsx';
+export { default } from '../pages/SubscriptionsPage.jsx';

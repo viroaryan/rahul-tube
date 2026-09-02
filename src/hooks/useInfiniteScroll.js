@@ -1,4 +1,4 @@
-﻿import { useEffect, useRef, useCallback } from 'react';
+import { useEffect, useRef, useCallback } from 'react';
 
 /**
  * Automated IntersectionObserver hook for seamless infinite pagination.

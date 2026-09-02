@@ -1,1 +1,1 @@
-﻿export { default } from './common/SkeletonLoader.jsx';
+export { default } from './common/SkeletonLoader.jsx';

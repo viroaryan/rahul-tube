@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { History, Trash2, Search, X, Play } from 'lucide-react';
 import { useUser } from '../context/UserContext.jsx';
